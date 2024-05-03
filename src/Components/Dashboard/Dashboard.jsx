@@ -12,6 +12,7 @@ function Dashboard(props) {
   const [pinCode, setPinCode] = useState("");
   const [filteredStudents, setFilteredStudents] = useState([]);
   const form = useRef();
+  console.log(form);
   const handlePinCodeChange = (event) => {
     setPinCode(event.target.value);
   };
